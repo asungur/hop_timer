@@ -1,3 +1,5 @@
+# HopTimer
+
 ![HopTimer Demo](https://media.giphy.com/media/kG8P3arKGzpMphCfGC/source.gif)
 
 HopTimer is a user friendly benchmarking gem that works as a wrapper for Ruby's default benchmark utility. If you are frequently using benchmark and looking for a more intuitive solution or even planning to start benchmarking in general, HopTimer is for you.
