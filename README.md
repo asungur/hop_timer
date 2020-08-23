@@ -4,7 +4,7 @@
 
 HopTimer is a user friendly benchmarking gem that works as a wrapper for Ruby's default benchmark utility. If you are frequently using benchmark and looking for a more intuitive solution or even planning to start benchmarking in general, HopTimer is for you.
 
-HopTimer uses **check points** and ****evaluates the runtime between two. As you develop your application define instances of check points and evaluate them whenever you want.
+HopTimer uses **check points** and evaluates the runtime between two. As you develop your application define instances of check points and evaluate them whenever you want.
 
 ## **Installation**
 
