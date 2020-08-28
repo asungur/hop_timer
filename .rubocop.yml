@@ -1,0 +1,41 @@
+inherit_from: .rubocop_todo.yml
+
+Style/InlineComment:
+  Description: Avoid inline comments.
+  Enabled: true
+
+Style/MutableConstant:
+  Description: Freeze mutable constants.
+  Enabled: true
+
+Style/TrailingWhitespace:
+  Enabled: true
+
+Style/Documentation:
+  Enabled: false
+
+Metrics/AbcSize:
+  Description: >-
+                 A calculated magnitude based on number of assignments,
+                 branches, and conditions.
+  Enabled: true
+  Max: 40
+
+Metrics/MethodLength:
+  Enabled: true
+  Max: 12
+
+Style/HashSyntax:
+  Description: >-
+                 Prefer Ruby 1.9 hash syntax { a: 1, b: 2 } over 1.8 syntax
+                 { :a => 1, :b => 2 }.
+  Enabled: true
+  EnforcedStyle: ruby19_no_mixed_keys
+  UseHashRocketsWithSymbolValues: false
+  PreferHashRocketsForNonAlnumEndingSymbols: false
+
+Metrics/MethodLength:
+  Description: 'Avoid methods longer than 24 lines of code.'
+  Enabled: true
+  CountComments: false  # count full line comments?
+  Max: 24
